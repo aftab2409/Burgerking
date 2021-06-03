@@ -1,0 +1,288 @@
+body{
+	margin:0px;
+	padding:0px;
+	height:1200;
+	width:1900;
+}
+header{
+	height:180px;
+	background-color:#5f3122;
+	display:flex;
+	width:100%
+
+}
+.logo-menu{
+	flex:1;
+	padding:15px
+}
+.header-menu{
+	flex:2;
+	padding-top:50px;
+}
+.icon{
+	flex:1;
+	padding:60px;
+
+}
+.menu{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	overflow:hidden
+}
+
+
+.menu li{
+	list-style:none;
+	display:inline-block; 
+}
+
+
+.menu li a{
+	padding:10px 20px; 
+    text-decoration:none;
+    display:block;
+    font-size:20px;
+	color:white;
+
+}
+.text{
+	position:absolute;
+	top:50%;
+	left:50%;
+	text-align:center;
+	transform:translate(-50%,50%);
+	
+}
+
+.text p{
+	font-size:20px;
+}
+.item{
+	display:flex;
+	padding:80px;
+	
+	
+}
+.item1 p{
+	width:30%;
+	background-color:brown;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin-left:450px;
+	margin-top:600px;
+	
+
+}
+.item1{
+	background-image:url(http://localhost/burgerking/images/main);
+	background-repeat:repeat-y;
+	flex:1;
+	padding-right:50px;
+	margin:50px;
+	height:700px;
+	background-position:right;
+}
+.item2{
+	flex:1;
+	padding-right:20px;
+	padding-top:30px
+}
+.item2 h2{
+	font-size:30px;
+	color:red;
+	
+}
+
+.item2 p{
+	font-size:24px;
+	
+}
+.item2 img{
+	margin-top:50px;
+}
+.id{
+	background-image:url(http://localhost/burgerking/images/layer);
+	height:300px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.id h1{
+	font-size:30px;
+	color:white;
+	text-align:center;
+	
+}
+.id p{
+	font-size:20px;
+	color:white;
+	text-align:center;
+	
+}
+.it{
+	text-align:center;
+}
+.it li a{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	background-color:darkred;
+	padding:10px 20px;
+	border-radius:4px;
+}
+.con{
+	display:grid;
+	grid-template-columns:30% 30% 30%;
+	margin:30px;
+	padding-left:140px;
+}
+.con1{
+	text-align:center;
+	
+}
+.con2{
+	text-align:center;
+}
+.con3{
+text-align:center;
+}
+.container1 h2{
+	text-align:center;
+	font-size:30px;
+	color:red;
+}
+.main-container{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.section1{
+		background-image:url(http://localhost/burgerking/images/layer4);
+		height:893px;
+		background-position:center;
+}
+
+.section2{
+	border:2px solid red;
+	width:30%;
+	background-color:#ffffff96;
+	padding:50px;
+	 transform: translate(200px, 300px);
+
+}
+.section2 h1{
+	font-size:30px;
+	color:darkred;
+	
+}
+.section2 h3{
+	font-size:30px;
+	color:darkred;
+	
+}
+.section2 p{
+	font-size:20px;
+}
+.sec li a{
+	color:black;
+	font-size:16px;
+}
+.main_contain{
+	background-image:url(http://localhost/burgerking/images/layer5);
+}
+.contain{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	height:600px;
+	padding-top:50px;
+	
+	
+}
+.contain img{
+	border-radius:80px;
+}
+/*section*/
+.idh{
+	display:grid;
+	grid-template-columns:30% 30% 30%;
+	margin:30px;
+	padding-left:140px;
+}
+.idh1{
+	text-align:center;
+	
+}
+.idh2{
+	text-align:center;
+}
+.idh3{
+text-align:center;
+}
+.mid2 h2{
+	text-align:center;
+	font-size:30px;
+	color:red;
+}
+.mid{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.button{
+	background-color:darkred;
+	padding:10px 15px;
+	border-radius:10px;
+}
+.flex{
+	background-image:url(http://localhost/burgerking/images/layer10);
+	height:600px;
+	display:flex;
+}
+.left-flex{
+	flex:1;
+	padding:100px;
+	margin:50px;
+	margin-right:20px;
+
+}
+.right-flex{
+	flex:1;
+	padding-top:50px;
+}
+form{
+	color:white;
+	font-size:20px;
+}
+input type{
+	padding:10px 20px;
+}
+.main-footer{
+	height:300px;
+	display:flex;
+	background-color:black;
+	color:white;
+	
+	
+}
+.foot1{
+	flex:1;
+	margin:20px;
+	margin-left:20px;
+	padding:40px;
+	
+}
+
+.foot2{
+	flex:1;
+	margin:20px;
+	margin-left:20px;
+	padding:40px;
+}
+
+.foot3{
+	flex:1;
+	margin:20px;
+	margin-left:20px;
+	padding:40px;
+}
